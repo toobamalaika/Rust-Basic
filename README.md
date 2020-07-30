@@ -1,0 +1,2 @@
+# Rust Basic Syntax
+The Rust programming language helps you write faster, more reliable software. High-level ergonomics and low-level control are often at odds in programming language design; Rust challenges that conflict.
