@@ -33,10 +33,10 @@ fn main() {
     // If only 1 field is similar 
     let mut vehicle_4 = Vehicle{
         name: String::from("Premio"),
-        ..vehicle_1,
+        ..vehicle_1
     };
 
-    println!("{:#?} {:#?} {:#?} {:#?}",vehicle_1, vehicle_2,vehicle_3,vehicle_4);
+    println!("{:#?} {:#?} {:#?} ", vehicle_2,vehicle_3,vehicle_4);
 
     // Call from another function
     let vehicle_3 = structCall(String::from("City"), String::from("Honda"));
